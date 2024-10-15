@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#808080"
+                android:text="@string/hello_tablelayout"
+                android:textColor="#FFFFFF"
+                android:gravity="center_vertical"
+                android:textStyle="bold" />
+        </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:text="@string/open"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"
+             />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:gravity="center_vertical|right"
+            android:text="@string/ctrl_o"
+            android:textColor="#FFFFFF"
+            tools:ignore="RtlHardcoded" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:text="@string/save"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:gravity="center_vertical|right"
+            android:text="@string/ctrl_s"
+            android:textColor="#FFFFFF"
+            tools:ignore="RtlHardcoded" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:text="@string/save_as"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:gravity="center_vertical|right"
+            android:text="@string/ctrl_shift_s"
+            android:textColor="#FFFFFF"
+            tools:ignore="RtlHardcoded" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:layout_height="1dp">
+
+        </TextView>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:text="@string/x_import"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"
+             />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:text="@string/x_export"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:gravity="center_vertical|right"
+            android:text="@string/ctrl_e"
+            android:textColor="#FFFFFF"
+            tools:ignore="RtlHardcoded" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:layout_height="1dp">
+
+        </TextView>
+    </TableRow>
+
+    <TableRow>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:text="@string/quit"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        />
+    </TableRow>
+
+</TableLayout>
